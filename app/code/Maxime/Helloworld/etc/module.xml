@@ -1,12 +1,4 @@
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
-    <module name="Maxime_Helloworld" schema_version="1.0.0.0" setup_version="1.0.0.0" active="true">
-        <sequence>
-            <module name="Magento_Core"/>
-        </sequence>
-        <depends>
-            <module name="Magento_Core"/>
-            <module name="Magento_Customer"/>
-        </depends>
-    </module>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Maxime_Helloworld" setup_version="1.0.0.0" />
 </config>
